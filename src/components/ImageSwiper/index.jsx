@@ -60,6 +60,7 @@ const ImageSwiper = ({ url, limit, page = 4 }) => {
         {image && image.length
           ? image.map((item, index) => (
               <img
+              key={index}
                 src={item.download_url}
                 alt={item.download_url}
                 className={currentImg === index ? "image" : "image hide-image"}
