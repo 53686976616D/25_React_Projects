@@ -8,7 +8,7 @@ const MenuItem = ({ item }) => {
   function handleClick(label) {
     setDisplayItem({ ...displayItem, [label]: !displayItem[label] });
   }
-//   console.log(displayItem);
+  // console.log(displayItem);
 
   return (
     <li>

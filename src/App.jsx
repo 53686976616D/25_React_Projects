@@ -6,6 +6,7 @@ import ImageSwiper from "./components/ImageSwiper/index";
 import LoadMoreData from "./components/Load-more-data/index";
 import TreesView from "./components/SideBar";
 import Menu from "./components/SideBar/SideMenu";
+import ToDo from "./components/Simple-To-DoList";
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
     <ImageSwiper url={"https://picsum.photos/v2/list"} limit={'10'}/>
     <LoadMoreData url={"https://dummyjson.com/products"} />
     <TreesView Menu={Menu}/>
+    <ToDo />
     </>
   );
 };
