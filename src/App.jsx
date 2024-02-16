@@ -7,6 +7,7 @@ import LoadMoreData from "./components/Load-more-data/index";
 import TreesView from "./components/SideBar";
 import Menu from "./components/SideBar/SideMenu";
 import ToDo from "./components/Simple-To-DoList";
+import QRgenerator from "./components/QR-CodeGenerator";
 
 const App = () => {
 
@@ -15,10 +16,11 @@ const App = () => {
     <Accordion />
     <BackgroundChanger />
     <StarRating />
-    <ImageSwiper url={"https://picsum.photos/v2/list"} limit={'10'}/>
+    <ImageSwiper url={"https://picsum.photos/v2/list"} limit={'10'} />
     <LoadMoreData url={"https://dummyjson.com/products"} />
     <TreesView Menu={Menu}/>
     <ToDo />
+    <QRgenerator />
     </>
   );
 };
