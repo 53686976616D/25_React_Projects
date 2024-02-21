@@ -8,6 +8,7 @@ import TreesView from "./components/SideBar";
 import Menu from "./components/SideBar/SideMenu";
 import ToDo from "./components/Simple-To-DoList";
 import QRgenerator from "./components/QR-CodeGenerator";
+import LightDarkMode from "./components/light-dark-mode";
 
 const App = () => {
 
@@ -21,6 +22,7 @@ const App = () => {
     <TreesView Menu={Menu}/>
     <ToDo />
     <QRgenerator />
+    <LightDarkMode />
     </>
   );
 };
